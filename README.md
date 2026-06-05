@@ -19,3 +19,15 @@ Empowerment is another intrinsic motive (https://arxiv.org/abs/1310.1863). It ca
 Creativity has been studied at the computational level (https://computationalcreativity.net/iccc21/wp-content/uploads/2021/09/ICCC_2021_paper_14.pdf) but many questions remain.
 
 For example, what is a good intrinsic motive for creativity?
+
+# Qualia = Intermediate Representations
+
+We conjecture that qualia are the intermediate representations of a neural system.
+
+Does this mean a vector of numbers is conscious and has subjective experience? No, beauty is in the eye of the beholder and that vector of numbers must be processed or perceived by an actual system in order to be a qualia percept.
+
+The study of intermediate representations and how to arrive at effective ones is the subject of representation learning (https://arxiv.org/abs/1206.5538).
+
+What does this conjecture mean for consciousness? That for a fixed neural system you can mess with its qualia by messing with it’s neuronal activations. This is unsurprising really. Moreover, as a neural system evolves and adapts so too do its qualia. Also unsurprising in retrospect.
+
+What does this mean for the hard problem of consciousness? Consciousness is the processing of intermediate representations by a neural system. It “feels like something” to be a particular neural system because different neural systems process or interpret representations differently.
