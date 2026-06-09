@@ -1,6 +1,6 @@
 # Open-Ended Interestingness-Based Learning
 
-An LLM (Qwen/Qwen2.5-0.5B-Instruct) is prompted to generate question-answer pairs. The same LLM is also prompted to rank the interestingness of each token. GRPO reinforcement learning is applied on a per token basis to maximize interestingness. 
+An LLM (Qwen/Qwen2.5-0.5B-Instruct) is prompted to generate question-answer pairs. The same LLM is also prompted to rank the interestingness of each token within its context. GRPO reinforcement learning is applied on a per token basis to maximize interestingness. 
 
 # ~~Differentiable Creativity~~ (Negative Results)
 
