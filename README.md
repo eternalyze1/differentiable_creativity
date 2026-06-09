@@ -2,6 +2,12 @@
 
 An LLM (Qwen/Qwen2.5-0.5B-Instruct) is prompted to generate question-answer pairs. The same LLM is also prompted to rank the interestingness of each token within its context. GRPO-based reinforcement learning is applied to maximize interestingness. See intrinsic_rl.py and training_log.txt for details.
 
+The optimistic hypothesis is that this process is naturally self-balancing. Unanswerable questions will have boring answers as will boring questions.
+
+The pessimistic hypothesis it that this process collapses no matter how it is tuned due to no external novelty coming into the system.
+
+The intermediate hypothesis is that some form of such independent learning should work at some scale.
+
 ## Sample Output
 
 Token contextual interestingness scores start off in the [1, 10] range and are centered to average around for the batch (so roughly in the [-5, 5] range).
