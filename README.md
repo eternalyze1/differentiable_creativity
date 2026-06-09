@@ -1,6 +1,10 @@
-# Differentiable Creativity
+# Open-Ended Interestingness-Based Learning
 
-A language model is trained on its own sharpened distribution thereby providing the test-time synaptic feedback hypothesized to be necessary for creativity.
+An LLM (Qwen/Qwen2.5-0.5B-Instruct) is prompted to generate question-answer pairs. The same LLM is also prompted to rank the interestingness of each token. GRPO reinforcement learning is applied on a per token basis to maximize interestingness. 
+
+# ~~Differentiable Creativity~~ (Negative Results)
+
+~~A language model is trained on its own sharpened distribution thereby providing the test-time synaptic feedback hypothesized to be necessary for creativity.~~~
 
 # Motivation & Creativity
 
